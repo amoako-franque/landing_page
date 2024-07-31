@@ -112,29 +112,32 @@ export const footerLinks = [
 	{
 		title: "Products",
 		links: [
-			{ name: "Dune Force 1", link: "/" },
-			{ name: "Dune Max 1", link: "/" },
-			{ name: "Dune Bauer  1", link: "/" },
-			{ name: "Dune Force 2", link: "/" },
-			{ name: "Mike Waffle Racer", link: "/" },
-			{ name: "Mike Cortez", link: "/" },
+			{ name: "Dune Ratio", link: "/dune-ration" },
+			{ name: "Dune Tundra", link: "/dune-tundra" },
+			{ name: "Dune Bauer  1", link: "/dune-bauer" },
+			{ name: "Dune Still 2", link: "/dune-still-2" },
+			{ name: "Mike Waffle Space", link: "/mike-waffle-space" },
+			{ name: "Mike Bauer", link: "/mike-bauer" },
 		],
 	},
 	{
 		title: "Help",
 		links: [
-			{ name: "About us", link: "/" },
-			{ name: "FAQs", link: "/" },
-			{ name: "How it works", link: "/" },
-			{ name: "Privacy policy", link: "/" },
-			{ name: "Payment policy", link: "/" },
+			{ name: "About us", link: "/about-us" },
+			{ name: "FAQs", link: "/faqs" },
+			{ name: "How it works", link: "/how-it-works" },
+			{ name: "Privacy policy", link: "/privacy-policy" },
+			{ name: "Payment policy", link: "/payment-policy" },
 		],
 	},
 	{
 		title: "Get in touch",
 		links: [
-			{ name: "customer@mike.com", link: "mailto:customer@mike.com" },
-			{ name: "+92554862354", link: "tel:+92554862354" },
+			{
+				name: "Mail Customer Service here",
+				link: "mailto:customerservice@mike.com",
+			},
+			{ name: "Call help Desk", link: "tel:+233244589011" },
 		],
 	},
 ]
